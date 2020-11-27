@@ -69,7 +69,7 @@ public class RadioButton1 {
 		
 		List <WebElement> radio1 = driver.findElements(By.xpath(pr.getProperty("LabelsOfRadioButtons")));
 		String ExpectedResult = "Male";
-				
+				//test
 		for(int i=0; i<radio1.size(); i++)
 			
 			
